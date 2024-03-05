@@ -1,0 +1,140 @@
+header{
+background-color:rgb(197, 235, 170);
+display: flex;
+justify-content: space-between;
+position: fixed;
+width: 100%;
+top: 0%;
+left: 0%;
+z-index:1;
+}
+
+#logo{
+    width: 90px;;
+    height: 110px;
+    margin-top: 0.8cm;
+    margin-left:0.5cm;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 70px;
+}
+
+nav  ul li a{
+    margin:20px;
+    letter-spacing: 3px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: black;
+    text-decoration:none;
+    
+
+}
+header h1{
+    margin: 1.8cm;
+    letter-spacing: 10px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 0.8cm;
+    text-align: center;
+}
+/*PARRAFOR Y TEXTOS*/
+
+body div{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    height:100%;
+    padding:100px;
+    justify-content: center;
+    align-items: center;
+    background-color:#F6F193;
+}
+body div h2{
+    font-size: 2cm;
+    background-color:rgb(242, 193, 141);
+    width: 200%;
+    height:100%;
+    padding: 100px;
+    text-align:center;
+}
+
+
+body div p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.75cm;
+    text-align: justify;
+    margin-right: 5%;
+}
+
+body div section h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:1cm;
+    align-items: center;
+}
+body div section p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.75cm;
+    text-align: justify;
+}
+body div section{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    height: 100%;
+    padding: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color:#F6F193;
+}
+body footer{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    height:100%;
+    padding:200px;
+}
+body footer p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.75cm;
+    text-align:justify;
+    position: inherit;
+    margin-left: 180px;
+    margin-top: 200px;
+    color: antiquewhite;
+}
+/* STAR IMAGENES*/
+#bordado{
+display: flex;
+width:20 cm;
+height:15cm;
+border-radius: 90%;
+}
+#composturas{
+    display: flex;
+    width:20 cm;
+    height:15cm;
+    border-radius: 90%;
+}
+#diseños{
+    display: flex;
+    width:20 cm;
+    height:15cm;
+    border-radius: 90%;
+}
+#disfraz{
+    display: flex;
+    width:20 cm;
+    height:15cm;
+    border-radius: 90%;
+}
+#maquina{
+    display:inline-block;
+    width:10 cm;
+    height:5cm;
+    border-radius: 50%;
+    margin-top: 0.8cm;
+    margin-left:0.5cm;
+}
+/*END IMAGENES*/
